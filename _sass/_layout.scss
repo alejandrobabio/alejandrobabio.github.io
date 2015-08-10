@@ -21,6 +21,10 @@
     &:visited {
         color: $grey-color-dark;
     }
+
+    &.menu-button {
+      padding: 0px 15px;
+    }
 }
 
 .site-nav {
@@ -236,11 +240,20 @@
 }
 
 .links {
-  margin-top: 30px;
+  margin-top: 40px;
   text-align: center;
 
   a {
     color: inherit;
     padding: 0px 10px;
   }
+}
+
+// hide mmenu before load page
+#my-content #my-menu {
+   display: none;
+}
+
+#my-menu:not( .mm-menu ) {
+   display: none;
 }

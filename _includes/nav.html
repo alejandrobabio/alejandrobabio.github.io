@@ -1,13 +1,36 @@
 <nav id="my-menu">
   <div>
-    <p>Alejandro Babio</p>
+
+    <p> </p>
+
     <ul class="pages">
       <li><a href="/">Home</a></li>
       <li><a href="#posts">Posts</a>
         <ul id="posts">
+
           {% for post in site.posts %}
           <li><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></li>
           {% endfor %}
+
+        </ul>
+      </li>
+
+      <li><a href="#by_tag">Tags</a>
+        <ul id="by_tag">
+
+          {% for tag in site.tags %}
+          {% assign tag_posts = tag[1] %}
+          {% if tag_posts != empty %}
+          <li><a href="#{{ tag[0] }}">{{ tag[0] }}</a>
+            <ul id="{{ tag[0] }}">
+            {% for tagged_post in tag_posts %}
+              <li><a href="{{ tagged_post.url | prepend: site.baseurl }}">{{ tagged_post.title }}</a></li>
+            {% endfor %}
+            </ul>
+          </li>
+          {% endif %}
+          {% endfor %}
+
         </ul>
       </li>
 
@@ -16,7 +39,10 @@
         <li><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
         {% endif %}
       {% endfor %}
+
     </ul>
+
     {% include links.html %}
+
   </div>
 </nav>
