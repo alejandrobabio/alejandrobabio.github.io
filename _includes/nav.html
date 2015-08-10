@@ -1,0 +1,22 @@
+<nav id="my-menu">
+  <div>
+    <p>Alejandro Babio</p>
+    <ul class="pages">
+      <li><a href="/">Home</a></li>
+      <li><a href="#posts">Posts</a>
+        <ul id="posts">
+          {% for post in site.posts %}
+          <li><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></li>
+          {% endfor %}
+        </ul>
+      </li>
+
+      {% for page in site.pages %}
+        {% if page.title %}
+        <li><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
+        {% endif %}
+      {% endfor %}
+    </ul>
+    {% include links.html %}
+  </div>
+</nav>
