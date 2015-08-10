@@ -10,5 +10,6 @@ github_username:  alejandrobabio
 stackoverflow_profile: "4151953/alejandro-babio?tab=profile"
 google_plus_profile: 108533475599002820142
 linkedin_profile: "alejandro-babio/11/537/a7"
+excerpt_separator: <!--more-->
 # Build settings
 markdown: kramdown
