@@ -4,8 +4,12 @@ title: About Me
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+I'm a father, husband, and a professional programmer based at Buenos Aires, Argentina.
 
-You can find the source code for the Jekyll new theme at: [github.com/jglovier/jekyll-new](https://github.com/jglovier/jekyll-new)
+I spend my time working hard, learning and searching better ways to do my job. I've been many years working as Senior Programmer and Team Lead at Banks in my country. From 2011 I start to work as solo consultant on web development, and from 2012 with Ruby on Rails. Although I attend to a course of design, I'm mainly a server programmer, who can make things looks well (like this blog).
 
-You can find the source code for Jekyll at [github.com/jekyll/jekyll](https://github.com/jekyll/jekyll)
+But, Ruby, Rails and its ecosystem changed my way to see the programming, they challenge me, make me better, and keep me learning ...
+
+I love Open Source, and I start this blog as a way of share some of the things I learned. Also, you can follow the links below to see more, or contact me.
+
+Thank you.

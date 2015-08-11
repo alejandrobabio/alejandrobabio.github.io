@@ -8,6 +8,6 @@ layout: default
 
 {% for post in site.posts %}
 ## [{{ post.title }}]({{ post.url | prepend: site.baseurl }})
-*{{ post.date | date: "%b %-d, %Y" }} -- {{ post.tags| array_to_sentence_string }}*
+*{{ post.date | date: "%b %-d, %Y" }}{% if post.tags != empty %}{{ post.tags| array_to_sentence_string | prepend: ' -- '}}{% endif %}*
 {{ post.excerpt }}
 {% endfor %}
