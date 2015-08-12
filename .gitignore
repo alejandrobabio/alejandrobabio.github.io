@@ -2,3 +2,4 @@ _site
 .sass-cache
 .ruby-*
 .*.s[a-w][a-z]
+_drafts/*
