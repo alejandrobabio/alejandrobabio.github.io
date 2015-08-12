@@ -7,10 +7,13 @@ tags: learn ruby
 
 ### [Sandi Metz at RailsConf 2015 - Nothing is Something](http://confreaks.tv/videos/railsconf2015-nothing-is-something){:target="_blank"}
 
-{% youtube 29MAL8pJImQ %}
-<!--more-->
 <br />
 
+<div class="youtube" id="29MAL8pJImQ"></div>
+
+<br />
+
+<!--more-->
 You must see this video, I transcribed the summary here in order to remember it. But, it make perfect sense after seen the conference.
 
 Summary:
