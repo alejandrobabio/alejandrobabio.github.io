@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Best Ruby and OOP Lesson I seen"
+title:  "Best Ruby and OOP Lesson I've seen"
 categories: learn ruby
 tags: learn ruby
 ---
