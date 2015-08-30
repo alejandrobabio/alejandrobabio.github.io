@@ -134,6 +134,12 @@ code {
     padding: 1px 5px;
 }
 
+:not(pre) > code {
+    border: 1px solid $grey-color-light;
+    border-radius: 3px;
+    background-color: #eef;
+}
+
 pre {
     padding: 8px 12px;
     overflow-x: scroll;

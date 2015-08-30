@@ -17,6 +17,7 @@ foo(bar: 'final') # => 'final'
 {% endhighlight %}
 
 Required arguments: you need a colon after the key (also you need ruby 2.1)
+<!--more-->
 
 {% highlight ruby %}
 def foo(bar:)
@@ -40,9 +41,9 @@ foo(bar: 'rab', baz: 'zab') # => 'rab:zab'
 foo(bin: 'bin') # => ArgumentError: unknown keyword: bin
 {% endhighlight %}
 
-Also you can use the standard positional args with this new hash parameters notation. You will find more information at this [blog][blog]{:target='_blank'} and at the [oficial][ruby_oficial]{:target='_blank'} documentation.
+Also you can use the standard positional args with this new hash parameters notation. You will find more information at this [blog][blog]{:target='_blank'} and at the [official][ruby_oficial]{:target='_blank'} documentation.
 
-Bonus: The refactor is easy because you can rid the options hash of your method without change the it's calls. But... this is not completely true, if you have a call with an unexpected option you will get an error: `ArgumentError: unknown keyword: invalid_arg`.
+**Bonus**: The refactor is easy because you can rid the options hash of your method without changing it's callers. But... this is not completely true, if you have a call with an unexpected option you will get an error: `ArgumentError: unknown keyword: <the_invalid_arg>`.
 
 [blog]: https://robots.thoughtbot.com/ruby-2-keyword-arguments
 [ruby_oficial]: http://ruby-doc.org/core-2.2.2/doc/syntax/calling_methods_rdoc.html#label-Keyword+Arguments

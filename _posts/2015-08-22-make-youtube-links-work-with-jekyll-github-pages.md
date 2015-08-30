@@ -10,6 +10,7 @@ I try with the [youtube plugin][youtube_plugin]{:target="_blank"}. It works fine
 Them I did it with some coffeescript.
 
 * At the markdown post, I added this small HTML snippet `<div id="youtube_video_id" class="youtube"></div>`.
+<!--more-->
 * At `_includes/footer.html`, which is called at my `default` layout. I put this line:
 `<script src="/assets/js/youtube.js"></script>`
 * And add this new file: `assets/js/youtube.coffee`

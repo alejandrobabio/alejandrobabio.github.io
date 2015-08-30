@@ -23,7 +23,16 @@
   }
 
   &.menu-button {
+    position: fixed;
     padding: 0px 15px;
+  }
+  &.gotop-button {
+    position: fixed;
+    padding: 15px 15px;
+    bottom: 0px;
+    right: 0px;
+    text-align: right;
+    display: none;
   }
 }
 
