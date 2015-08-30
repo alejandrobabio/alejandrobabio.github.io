@@ -35,9 +35,9 @@ def foo(bar: nil, baz: 'aaa')
 end
 
 foo # => ':aaa'
-foo(baz: 'zab') => ':zab'
-foo(bar: 'rab', baz: 'zab') => 'rab:zab'
-foo(bin: 'bin') => ArgumentError: unknown keyword: bin
+foo(baz: 'zab') # => ':zab'
+foo(bar: 'rab', baz: 'zab') # => 'rab:zab'
+foo(bin: 'bin') # => ArgumentError: unknown keyword: bin
 {% endhighlight %}
 
 Also you can use the standard positional args with this new hash parameters notation. You will find more information at this [blog][blog]{:target='_blank'} and at the [oficial][ruby_oficial]{:target='_blank'} documentation.
