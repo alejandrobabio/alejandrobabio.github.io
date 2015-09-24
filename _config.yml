@@ -4,7 +4,7 @@ email: alejandroebabio@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   Ruby on Rails Developer
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://alejandrobabio.github.com" # the base hostname & protocol for your site
+url: "http://alejandrobabio.github.io" # the base hostname & protocol for your site
 twitter_username: alejandro_babio
 github_username:  alejandrobabio
 stackoverflow_profile: "4151953/alejandro-babio?tab=profile"
