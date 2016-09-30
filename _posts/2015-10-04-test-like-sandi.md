@@ -5,7 +5,7 @@ categories: learn ruby
 tags: learn ruby
 ---
 
-###After seen Sandi Metz's [The magic tricks of testing][tmtot]{:target='_blank'} advice on testing, you will want to test the way she does.
+### After seen Sandi Metz's [The magic tricks of testing][tmtot]{:target='_blank'} advice on testing, you will want to test the way she does.
 
 <br />
 
@@ -15,12 +15,12 @@ tags: learn ruby
 
 <!--more-->
 
-###This is the basic idea:
+### This is the basic idea:
 
 * The public methods of your class (the public API), must be tested
 * The private methods don't need be tested
 
-###Summary of tests to do:
+### Summary of tests to do:
 
 * The incoming query methods, test the result
 * The incoming command methods, test the direct public side effects
