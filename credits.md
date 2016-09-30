@@ -11,4 +11,4 @@ This blog could not be done without the community's help:
 * Dynamic content parsed by [Liquid](http://liquidmarkup.org){:target="_blank"}
 * Easy and nice menu: [mmenu](http://mmenu.frebsite.nl/){:target="_blank"}
 * Icons from [Font Awesome](http://fontawesome.io/){:target="_blank"}, because... they are awesome
-* This post of Joshua Lande: [How I Created a Beautiful ...](http://joshualande.com/jekyll-github-pages-poole/){:target="_blank"}
+* This post of Joshua Lande: [How I Created a Beautiful ...](http://joshualande.com/jekyll-github-pages-poole){:target="_blank"}
