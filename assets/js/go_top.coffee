@@ -2,7 +2,7 @@
 ---
 
 $ ->
-  $(document).on 'click', 'a.gotop-button', (event) ->
+  $(window).on 'click', 'a.gotop-button', (event) ->
     event.preventDefault()
     $('body').animate(scrollTop: 0)
 
