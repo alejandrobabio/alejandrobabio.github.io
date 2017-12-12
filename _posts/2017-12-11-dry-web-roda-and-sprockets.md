@@ -15,7 +15,7 @@ These are the steps to make it work:
 
 ```ruby
 gem 'sprockets'
-gem 'coffee-script' # only if you need compile coffee-script
+gem 'coffee-script' # only if you need to compile coffee-script
 gem 'sass'          # for sass and scss files processing
 gem 'uglifier'      # for js compression
 ```
@@ -40,7 +40,7 @@ Focus::Main::Container.boot :sprockets do |system|
     sprockets.append_path(File.join(system.root, 'assets', 'stylesheets'))
     sprockets.append_path(File.join(system.root, 'assets', 'images'))
 
-    # This will be used by the rake task that precompile your assets
+    # This will be used by the rake task that precompiles your assets
     if ENV['RACK_ENV'] == 'production'
       sprockets.js_compressor  = :uglify
       sprockets.css_compressor = :sass
@@ -69,9 +69,9 @@ Focus::Main::Container.boot :sprockets do |system|
 end
 ```
 
-#### Ask to the context about the assets' reference
+#### Ask the context of the assets' reference
 
-Add to the view context an `asset` method that returns the asset's reference. You can add this in the `Main` app or globally in the `lib`. In my case `lib/focus/view/context.rb`:
+Add to the view context an `asset` method that returns the asset's reference. You can add this to the `Main` app or globally in the `lib`. In my case `lib/focus/view/context.rb`:
 
 ```ruby
 module Focus
@@ -138,7 +138,7 @@ end
 
 ## Moving to production
 
-We need a rake task for precompile the assets in production. The following code has my customized needs for assets compilation (images in application assets path, bootstrap fonts from vendor file, and adding digest to css and js files). But I'm sure that you will get the idea. Also, you can precompile your assets in development.
+We need a rake task for precompile the assets in production. The following code has my customized needs for assets compilation (images in application assets path, bootstrap fonts from vendor file, and adding a digest to css and js files). But I'm sure that you will get the idea. Also, you can precompile your assets in development.
 
 Then this are the changes added to my `Rakefile` for assets processing:
 
@@ -233,4 +233,3 @@ run Focus::Web.freeze.app
 ```
 
 And that's all.
-
