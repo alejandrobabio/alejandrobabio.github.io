@@ -4,10 +4,10 @@ title:  "Dry-web-roda and Sprockets"
 tags: ruby dry-web-roda
 ---
 
-If you are migrating a Rails app to Dry-web-roda it is possible that you have your assets managed by sprockets. And, If you want to reduce the impact of the changes you will want to use sprockets in you new dry-web-roda app. Thankfully is really simple to do that.
+If you are migrating a Rails app to Dry-web-roda it is possible that you have your assets managed by sprockets. And, If you want to reduce the impact of the changes you will want to use sprockets in your new dry-web-roda app. Thankfully is really simple to do that.
 
 <!--more-->
-The code was taken from my app called `Focus` but you want to replace it with the name of the yours.
+The code was taken from my app called `Focus` then you want to replace it with the name of the yours.
 
 These are the steps to make it work:
 
@@ -69,9 +69,9 @@ Focus::Main::Container.boot :sprockets do |system|
 end
 ```
 
-#### Ask to the context about the asset reference
+#### Ask to the context about the assets' reference
 
-Add to the view context an `asset` method that returns the asset reference. You can add this in the `Main` app or globally in the `lib`. In my case `lib/focus/view/context.rb`:
+Add to the view context an `asset` method that returns the asset's reference. You can add this in the `Main` app or globally in the `lib`. In my case `lib/focus/view/context.rb`:
 
 ```ruby
 module Focus
