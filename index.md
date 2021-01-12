@@ -2,7 +2,7 @@
 layout: default
 ---
 
-### Hi, I'm a **Ruby on Rails** developer, and this is my **blog**.
+### Hi, I'm a **Ruby & Elixir** developer, and this is my **blog**.
 
 {% for post in site.posts %}
 
