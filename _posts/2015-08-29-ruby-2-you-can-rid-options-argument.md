@@ -49,4 +49,4 @@ Also you can use the standard positional args with this new hash parameters nota
 **Bonus**: The refactor is easy because you can rid the options hash of your method without changing it's callers. But... this is not completely true, if you have a call with an unexpected option you will get an error: `ArgumentError: unknown keyword: <the_invalid_arg>`. And of course, calling with `nil` parameter is not the same of calling without it, you'll lose the default value because `nil` is a valid one.
 
 [blog]: https://robots.thoughtbot.com/ruby-2-keyword-arguments
-[ruby_oficial]: http://ruby-doc.org/core-2.2.2/doc/syntax/calling_methods_rdoc.html#label-Keyword+Arguments
+[ruby_oficial]: https://ruby-doc.org/core-2.2.2/doc/syntax/calling_methods_rdoc.html#label-Keyword+Arguments

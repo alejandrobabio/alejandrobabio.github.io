@@ -5,7 +5,7 @@ categories: learn ruby
 tags: learn ruby
 ---
 
-### [Sandi Metz at RailsConf 2015 - Nothing is Something](http://confreaks.tv/videos/railsconf2015-nothing-is-something){:target="_blank"}
+### [Sandi Metz at RailsConf 2015 - Nothing is Something](https://confreaks.tv/videos/railsconf2015-nothing-is-something){:target="_blank"}
 
 <br />
 

@@ -30,4 +30,4 @@ tags: learn ruby
 Taken from the [slides][slides]{:target='_blank'} of the conference.
 
 [slides]: https://speakerdeck.com/skmetz/magic-tricks-of-testing-railsconf
-[tmtot]: http://confreaks.tv/videos/railsconf2013-the-magic-tricks-of-testing
+[tmtot]: https://confreaks.tv/videos/railsconf2013-the-magic-tricks-of-testing
